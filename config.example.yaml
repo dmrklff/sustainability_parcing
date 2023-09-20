@@ -1,0 +1,3 @@
+OPENAI_TOKEN: <YOUR API KEY>
+MODEL_NAME: "text-davinci-003"
+ARTICLE_NUMS: [8, 9]

@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sust"
+version = "0.1.0"
+description = ""
+authors = ["dmerkulov001 <dmitriy.merkulov@tedo.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^0.28.0"
+pdfplumber = "^0.10.2"
+tiktoken = "^0.5.1"
+openpyxl = "^3.1.2"
+pyyaml = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
