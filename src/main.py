@@ -142,10 +142,9 @@ def main(path):
         article=article,
         article_source=article_source,
         summary=summary,
-        sust_results=sust_results,
-        fund_name=path.stem
+        sust_results=sust_results
     )
-    LOGGER.info(f"File {path.stem}.xlsx created successfully.")
+    LOGGER.info(f"Output file created successfully.")
 
 
 if __name__ == '__main__':
