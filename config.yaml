@@ -1,3 +1,4 @@
 OPENAI_TOKEN: <YOUR API KEY>
 MODEL_NAME: "text-davinci-003"
 ARTICLE_NUMS: [8, 9]
+FUND_NAME: Global Leaders Fund
