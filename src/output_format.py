@@ -1,7 +1,7 @@
 import openpyxl
 from openpyxl.styles import Font
 
-from settings import OUTPUT_DATA_PATH
+from settings import OUTPUT_DATA_PATH, FUND_NAME
 
 
 def make_file(
@@ -9,7 +9,7 @@ def make_file(
         article_source: dict,
         summary: str,
         sust_results: list[dict],
-        fund_name: str
+        fund_name: str = FUND_NAME
 ) -> None:
     """
     Make Excel file with classified article,
